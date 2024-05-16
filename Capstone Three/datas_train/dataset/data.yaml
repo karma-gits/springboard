@@ -1,0 +1,14 @@
+path: ../drive/MyDrive/ppe_data/dataset
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['hard-hat', 'jacket', 'mask', 'no-hard-hat', 'no-jacket', 'no-mask', 'person']
+
+roboflow:
+  workspace: springboard
+  project: ppe-a3n79
+  version: 2
+  license: MIT
+  url: https://universe.roboflow.com/springboard/ppe-a3n79/dataset/2
